@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ab5518</color>
-    <color name="colorPrimaryDark">#854213</color>
-    <color name="colorAccent">#e29f6f</color>
+    <color name="colorPrimary">#321c05</color>
+    <color name="colorPrimaryDark">#251304</color>
+    <color name="colorAccent">#783a00</color>
     <color name="Textcolour">#ffffff</color>
-    <color name="BackText">#be5f1b</color>
+    <color name="BackText">#783a00</color>
+    <color name="BackTextSlide">#391f05</color>
     <color name="FABCLR">#7e450b</color>
     <color name="BackCard">#bdbdbd</color>
+    <color name="BackCardSlide">#ecdac8</color>
+    <color name="ButtonClrs">#b6b6b6</color>
 </resources>
