@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:padding="10dp"
+                    android:textColor="@color/Textcolour"
+                    android:background="@color/BackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wallpaperable"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/wal1id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/wal1"/>
+
+                    <Button
+                        android:id="@+id/wal2id"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/wal2"/>
+
+                    <Button
+                        android:id="@+id/wal3id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/wal3"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/wal4id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/wal4"/>
+
+                    <Button
+                        android:id="@+id/wal5id"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/wal5"/>
+
+                    <Button
+                        android:id="@+id/wal6id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/wal6"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:padding="10dp"
+                    android:textColor="@color/Textcolour"
+                    android:background="@color/BackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SpaceWallp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/spaceaid"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/spacea"/>
+
+                    <Button
+                        android:id="@+id/spacebid"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/spaceb"/>
+
+                    <Button
+                        android:id="@+id/spacecid"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/spacec"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/spacedid"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/spaced"/>
+
+                    <Button
+                        android:id="@+id/spaceeid"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/spacee"/>
+
+                    <Button
+                        android:id="@+id/spacefid"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/spacef"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:padding="10dp"
+                    android:textColor="@color/Textcolour"
+                    android:background="@color/BackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextureWallp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/text1id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/text1"/>
+
+                    <Button
+                        android:id="@+id/text2bid"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/text2"/>
+
+                    <Button
+                        android:id="@+id/text3id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/text3"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/text4id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/text4"/>
+
+                    <Button
+                        android:id="@+id/text5id"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/text5"/>
+
+                    <Button
+                        android:id="@+id/text6id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/text6"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:padding="10dp"
+                    android:textColor="@color/Textcolour"
+                    android:background="@color/BackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ColourWallp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/color1id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/color1"/>
+
+                    <Button
+                        android:id="@+id/color2id"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/color2"/>
+
+                    <Button
+                        android:id="@+id/color3id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/color3"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/color4id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/color4"/>
+
+                    <Button
+                        android:id="@+id/color5id"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/color5"/>
+
+                    <Button
+                        android:id="@+id/color6id"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/color6"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/livepict"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:borderWidth="0dp"
+            app:elevation="12dp"
+            android:backgroundTint="@color/FABCLR"
+            android:id="@+id/floatbutton"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
