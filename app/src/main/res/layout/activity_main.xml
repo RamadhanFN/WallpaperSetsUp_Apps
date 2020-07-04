@@ -95,6 +95,12 @@
 
                 </LinearLayout>
 
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="25dp">
+
+                </Space>
+
                 <TextView
                     android:padding="10dp"
                     android:textColor="@color/Textcolour"
@@ -165,6 +171,12 @@
 
                 </LinearLayout>
 
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="25dp">
+
+                </Space>
+
                 <TextView
                     android:padding="10dp"
                     android:textColor="@color/Textcolour"
@@ -234,6 +246,12 @@
 
 
                 </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="25dp">
+
+                </Space>
 
                 <TextView
                     android:padding="10dp"
